@@ -1,0 +1,37 @@
+/* RESET CSS */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:blueviolet;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+h1{
+    font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.destaque {
+    background-color:aquamarine;
+    color:grey;
+    padding: 11x 30px;
+    transition: 1s;
+}
+.destaque:hover{
+    background-color: maroon;
+}
+
+
